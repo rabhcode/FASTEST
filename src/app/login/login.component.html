@@ -1,0 +1,32 @@
+<div class="login-container">
+    <form (ngSubmit)="onSubmit()">
+      <h2>WELCOME BACK!</h2>
+      <p>LOGIN TO CONTINUE</p>
+      
+      <div class="form-group">
+        <label for="username">USERNAME</label>
+        <input type="email" [(ngModel)]="username" name="username" id="username" placeholder="Enter email" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="password">PASSWORD</label>
+        <input type="password" [(ngModel)]="password" name="password" id="password" placeholder="Enter password" required>
+      </div>
+  
+      <div class="form-options">
+        <div class="checkbox">
+          <input type="checkbox" id="remember">
+          <label for="remember">Remember</label>
+        </div>
+        <a href="#">Forgot password?</a>
+      </div>
+  
+      <div class="form-actions">
+        <button type="submit">Sign-in</button>
+        <button type="button" (click)="onCancel()">Cancel</button>
+      </div>
+  
+      <button type="button">New Sign-in</button>
+    </form>
+  </div>
+  

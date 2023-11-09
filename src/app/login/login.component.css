@@ -1,0 +1,55 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #01d1c7; /* or any color you prefer */
+  }
+  
+  .login-form {
+    background-color: #0099FF;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px; /* You can adjust the width as you like */
+  }
+  
+  .login-form h1,
+  .login-form p {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+  }
+  
+  .form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0066CC;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0055BB;
+  }
+  
